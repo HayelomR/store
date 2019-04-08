@@ -7,7 +7,7 @@ export const storeProducts = [
     price: 10,
     company: "Macy's",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Original lambskin hide 100% genuine leather.",
     inCart: false,
     count: 0,
     total: 0
@@ -19,8 +19,7 @@ export const storeProducts = [
     price: 16,
     company: "Express",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
+      "This work bag takes it all in stride with classic style and functionality around every curve. The interior is fully lined and includes a top zipper closure for added security and an inside zipper pock.",
     count: 0,
     total: 0
   },
@@ -31,7 +30,7 @@ export const storeProducts = [
     price: 8,
     company: "Louis Vouton",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Our Center Stitch Roller Belt combines Bridle leather and polished hardware for a look that’s classic and timeless. Inspired by the instant classics of our leather collection.",
     inCart: false,
     count: 0,
     total: 0
@@ -43,7 +42,7 @@ export const storeProducts = [
     price: 18,
     company: "Country Store",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Bootcut jeans in our just-right original fit are comfortable and look great too.",
     inCart: false,
     count: 0,
     total: 0
@@ -54,8 +53,7 @@ export const storeProducts = [
     img: "img/leatherGlove.jpeg",
     price: 24,
     company: "Dolce and Gabbana ",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    info:"Classically styled cashmere-lined leather dress gloves for men. Featuring pique stitching and a palm side center vent. Made of the finest Italian lambskin leather",
     inCart: false,
     count: 0,
     total: 0
@@ -66,8 +64,7 @@ export const storeProducts = [
     img: "img/leatherPants.jpeg",
     price: 17,
     company: "Dolce and Gabbana",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    info:"",
     inCart: false,
     count: 0,
     total: 0
@@ -79,7 +76,7 @@ export const storeProducts = [
     price: 30,
     company: "Express",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A master of minimalism, merging feminine and masculine elements, sharp cuts and urban prints, Helmut Lang defined the nineties with a less-is-more outlook on modern dressing and remains a master of the aesthetic.",
     inCart: false,
     count: 0,
     total: 0
@@ -90,8 +87,7 @@ export const storeProducts = [
     img: "img/leatherShoes.jpeg",
     price: 2,
     company: "Dolce and Gabbana",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    info:"Timeless formal elegance for these brushed leather Oxford lace-ups with toecap. The leather sole has a non-slip rubber half-sole.",
     inCart: false,
     count: 0,
     total: 0
@@ -104,8 +100,7 @@ export const detailProduct = {
   img: "img/jacket.jpeg",
   price: 10,
   company: "Macy's",
-  info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+  info:"Timeless formal elegance for these brushed leather Oxford lace-ups with toecap. The leather sole has a non-slip rubber half-sole.",
   inCart: false,
   count: 0,
   total: 0
