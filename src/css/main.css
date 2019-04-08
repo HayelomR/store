@@ -1,0 +1,193 @@
+
+body {
+	font-family: 'Oswald', sans-serif !important;
+	background: #f3f3f3 !important;
+	color: #ffa400 !important;
+}
+
+.text-title {
+	font-family: 'Times New Roman, Arial, Helvetica, sans-serif', cursive;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+}
+.text-blue {
+	color: #2a2a72;
+}
+
+.text-bright {
+	color: #009ffd;
+}
+.navbar {
+
+	background-color: #000;
+	padding: 0px;
+}
+
+.nav-link {
+	color:#f3f3f3 !important;
+	font-size:1.3rem;
+	text-transform:capitalize; 
+}
+.ButtonContainer {
+	text-transform:capitalize;
+	font-size:1.4rem;
+	background:transparent;
+	/*	border:0.5rem solid #009ffd;*/
+	color:#009ffd;
+	border-radius:0.5rem;
+	padding:0.2rem 0.5rem;
+	margin:0.2rem 0.5rem 0.2rem 0;
+	transition:all 0.5s ease-in-out;
+}
+.mr-1 {
+	margin-left: 5px;
+}
+
+.ButtonContainer:hover {
+	background:#009ffd;
+	color:#2a2a72;
+}
+.ButtonContainer:focus {
+	outline: none;
+}
+.name {
+	text-align: center;
+	background-color: #f4f4f4;
+	font-family: fontello!important;
+	font-weight: 400!important;
+	font-variant: normal!important;
+	text-transform: none!important;
+	margin-bottom: -2px;
+	/*padding-top: 60px;*/
+	/*	font-size: 75px;*/
+}
+.navbar-brand{
+	background-color: #2a2a72;
+	border-radius: 50%;
+	height: 70px;
+}
+
+.fixed-bottom {
+	position: relative;
+	bottom: 0;
+	/*padding-top: 15px;*/
+	color: #bfa69a;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	background-color: #000;
+	margin-top: -100px;
+
+}
+
+.card-img-top {
+	height: 120px;
+	width: 120px;
+}
+
+.container {
+	font-family: "Georgia","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.card {
+	border-color:transparent;
+	transition:all 1s linear;
+}
+
+.card-footer {
+	background-color:transparent;
+	border-color: transparent;
+	border-top: transparent;
+	transition:all 1s linear;
+	flex: right;
+}
+
+
+.img-container{
+	position: relative;
+	overflow: hidden;
+}
+.img-container:hover .card-img-top{
+	transform: scale(1.2);
+
+}
+
+.card-img-top {
+	transition: all 1s linear;
+}
+
+.cart-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #009ffd;
+	border:none;
+	color: #FFFFFF;
+	font-size:1.4rem;
+	border-radius: 0.5rem 0 0 0;
+	margin:0.2rem 0.5rem 0.2rem 0;
+	transition:all 0.5s ease-in-out;
+	transform: translate(100%,100%);
+}
+
+
+.img-container:hover .cart-btn{
+  transform: translate(0, 0);
+}
+
+.cart-btn:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+
+.hayelomButton {
+	text-transform:capitalize;
+	font-size:1.4rem;
+	background:transparent;
+	border:0.1rem solid #ADD8E6;
+	color:#009ffd;
+	cursor:pointer;
+	border-radius:2.5rem;
+	padding:0.2rem 0.5rem;
+	margin:0.2rem 0.5rem 0.2rem 0;
+	transition:all 0.5s ease-in-out;
+}
+.hayelomButton:focus {
+  outline: none;
+}
+
+.hayelomButton:hover {
+  background:#ADD8E6;
+  color:#0000FF;
+}
+
+
+.hayelomButton2 {
+	text-transform:capitalize;
+	font-size:1.4rem;
+	background:transparent;
+	border:0.1rem solid #FFFF00;
+	color:#009ffd;
+	cursor:pointer;
+	border-radius:2.5rem;
+	padding:0.2rem 0.5rem;
+	margin:0.2rem 0.5rem 0.2rem 0;
+	transition:all 0.5s ease-in-out;
+}
+.hayelomButton2:focus {
+  outline: none;
+}
+
+.hayelomButton2:hover {
+  background:#008000;
+  color:#0000FF;
+}
+.myImage {
+	width: 320px;
+	height:320px;
+}
+
+/*.row {
+	margin-top: -70px;
+}*/

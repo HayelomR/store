@@ -6,9 +6,9 @@ export default class ProductList extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="py-5">
+                <div>
                     <div className="container">
-                    <Title name="our" title="products"></Title>
+                    <Title name="choose" title="your fashion"></Title>
                         <div className="row">
                             <ProductConsumer>
                                 {value => {
@@ -23,8 +23,7 @@ export default class ProductList extends Component {
 
                     </div>
                 </div>
-            </React.Fragment>
-           
+           </React.Fragment>
           
         );
     }

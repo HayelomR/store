@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import {Switch,Route} from 'react-router-dom';
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import './css/main.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
-import Cart from './components/Cart';
+import Cart from './Cart/Cart';
+import Footer from './components/Footer';
 import Default from './components/Default';
 class App extends Component {
   render() {
     return (
-      //react fragment helps us to avoid using div or span
-      <React.Fragment>
+      <div>
           <Navbar />
           <Switch>
           <Route  exact path="/" component={ProductList} />
             <Route path="/details" component={Details} />
             <Route path="/cart" component={Cart} />
+            <Route path="/footer" component={Footer} />
             <Route component={Default} />
           </Switch>
-      </React.Fragment>
+           <Footer />
+      </div>
     );
   }
 }
