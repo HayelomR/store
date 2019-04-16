@@ -7,8 +7,6 @@ class ProductProvider extends Component {
     products: [],
     detailProduct: detailProduct,
     cart: [],
-    // modalOpen: false,
-    // modalProduct: detailProduct,
     cartSubTotal: 0,
     cartTax: 0,
     cartTotal: 0
@@ -55,17 +53,7 @@ addToCart = id => {
     };
 }, this.addTotals);
 };
-// openModal = id => {
-//     const product = this.getItem(id);
-//     this.setState(() => {
-//       return { modalProduct: product, modalOpen: true };
-//   });
-// };
-// closeModal = () => {
-//     this.setState(() => {
-//       return { modalOpen: false };
-//   });
-// };
+
 increment = id => {
     let tempCart = [...this.state.cart];
     const selectedProduct = tempCart.find(item => {
@@ -164,8 +152,6 @@ render() {
           ...this.state,
           handleDetail: this.handleDetail,
           addToCart: this.addToCart,
-          // openModal: this.openModal,
-          // closeModal: this.closeModal,
           increment: this.increment,
           decrement: this.decrement,
           removeItem: this.removeItem,
