@@ -37,8 +37,8 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Jeans Pants",
-    img: "img/jeansPants.jpeg",
+    title: "Leather Pants",
+    img: "img/leatherPants.jpeg",
     price: 218,
     company: "Country Store",
     info:
@@ -60,11 +60,11 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Black Leather Pants",
-    img: "img/leatherPants.jpeg",
+    title: "Handmade leather Travel Bag",
+    img: "img/leatherTravelBag.jpg",
     price: 117,
     company: "Dolce and Gabbana",
-    info:"",
+    info:"The Roma Travel Bag comes in Saddle Brown leather and is finished with brass zipper and hardware.  The calfskin leather for this bag was vegetable tanned in Tuscany to create rich color tones while the matte (oil) finish gives it an old school look and scratches easily recover by rubbing the leather.",
     inCart: false,
     count: 0,
     total: 0
