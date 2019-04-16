@@ -187,7 +187,11 @@ body {
 	width: 320px;
 	height:320px;
 }
+.cartColumns {
+	color:#000000;
+	text-transform:uppercase;
 
-/*.row {
-	margin-top: -70px;
-}*/
+}
+.cartBtn{
+	color: black;
+}

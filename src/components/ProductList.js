@@ -8,7 +8,7 @@ export default class ProductList extends Component {
             <React.Fragment>
                 <div>
                     <div className="container">
-                    <Title name="choose" title="your fashion"></Title>
+                    <Title name="choose" title="your leather fashion"></Title>
                         <div className="row">
                             <ProductConsumer>
                                 {value => {
