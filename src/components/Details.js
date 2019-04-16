@@ -49,12 +49,12 @@ export default class Details extends Component {
                   {/* buttons */}
                   <div>
                     <Link to="/">
-                	      <button className="hayelomButton">
+                	      <button className="back">
                 	        Back to products
                 	      </button>
                 	     </Link>
                 	 
-                	      <button className="hayelomButton2"
+                	      <button className="toCart"
                 	        disabled={inCart?true:false}
                 	        onClick={() => {
                 	        	value.addToCart(id);
