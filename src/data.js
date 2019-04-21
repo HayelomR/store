@@ -27,7 +27,7 @@ export const storeProducts = [
     id: 3,
     title: "Special Leather Belt",
     img: "img/leatherBelt.jpeg",
-    price: 8,
+    price: 78,
     company: "Louis Vouton",
     info:
       "Our Center Stitch Roller Belt combines Bridle leather and polished hardware for a look that’s classic and timeless. Inspired by the instant classics of our leather collection.",
