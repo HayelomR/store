@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-// import App from '../css/main.css';
 import {ProductConsumer} from '../context';
 import PropTypes from 'prop-types';
 

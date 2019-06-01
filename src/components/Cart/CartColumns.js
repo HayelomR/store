@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 export default function  CartColumns() {
 	return (
 	  <div className="cartColumns container-fluid text-center d-none d-lg-block">
